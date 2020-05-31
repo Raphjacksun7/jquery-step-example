@@ -146,7 +146,7 @@ h3 {
   width: 100%;
   padding: 0 18px; }
   .form-control:focus {
-    border-color: #f3d4b7; }
+    border-color: #9a9a9a; }
   .form-control::-webkit-input-placeholder {
     color: #999;
     font-size: 13px; }
@@ -188,7 +188,6 @@ h3 {
       right: 0;
       min-width: 100%;
       min-height: 100%;
-      font-size: 100px;
       text-align: right;
       filter: alpha(opacity=0);
       opacity: 0;
@@ -268,148 +267,6 @@ textarea.form-control {
   font-weight: 400; }
   .actions li:last-child a:before {
     right: 30px; }
-
-.checkbox {
-  position: relative; }
-  .checkbox label {
-    padding-left: 21px;
-    cursor: pointer;
-    color: #999; }
-  .checkbox input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer; }
-  .checkbox input:checked ~ .checkmark:after {
-    display: block; }
-
-.checkmark {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  height: 12px;
-  width: 13px;
-  border-radius: 2px;
-  background-color: #ebebeb;
-  border: 1px solid #ccc;
-  font-family: Material-Design-Iconic-Font;
-  color: #000;
-  font-size: 10px;
-  font-weight: bolder; }
-  .checkmark:after {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-    content: '\f26b'; }
-
-.checkbox-circle {
-  margin-top: 41px;
-  margin-bottom: 46px; }
-  .checkbox-circle label {
-    cursor: pointer;
-    padding-left: 26px;
-    color: #999;
-    display: block;
-    margin-bottom: 15px;
-    position: relative; }
-    .checkbox-circle label.active .tooltip {
-      display: block; }
-  .checkbox-circle input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer; }
-  .checkbox-circle input:checked ~ .checkmark:after {
-    display: block; }
-  .checkbox-circle .checkmark {
-    position: absolute;
-    top: 11px;
-    left: 0;
-    height: 14px;
-    width: 14px;
-    border-radius: 50%;
-    background: #ebebeb;
-    border: 1px solid #cdcdcd; }
-    .checkbox-circle .checkmark:after {
-      content: "";
-      top: 6px;
-      left: 6px;
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: #666666;
-      position: absolute;
-      display: none; }
-  .checkbox-circle .tooltip {
-    padding: 9px 22px;
-    background: #f2f2f2;
-    line-height: 1.8;
-    position: relative;
-    margin-top: 16px;
-    margin-bottom: 28px;
-    display: none; }
-    .checkbox-circle .tooltip:before {
-      content: "";
-      border-bottom: 10px solid #f2f2f2;
-      border-right: 9px solid transparent;
-      border-left: 9px solid transparent;
-      position: absolute;
-      bottom: 100%; }
-
-.product {
-  margin-bottom: 33px; }
-
-.item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #e6e6e6;
-  margin-bottom: 30px; }
-  .item:last-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    border: none; }
-  .item .left {
-    display: flex;
-    align-items: center; }
-  .item .thumb {
-    display: inline-flex;
-    width: 100px;
-    height: 90px;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #f2f2f2; }
-  .item .purchase {
-    display: inline-block;
-    margin-left: 21px; }
-    .item .purchase h6 {
-      font-family: "Poppins-Medium";
-      font-size: 16px;
-      margin-bottom: 4px;
-      font-weight: 500; }
-      .item .purchase h6 a {
-        color: #333; }
-  .item .price {
-    font-size: 16px; }
-
-.checkout {
-  margin-bottom: 44px; }
-  .checkout span.heading {
-    font-family: "Poppins-Medium";
-    font-weight: 500;
-    margin-right: 5px; }
-  .checkout .subtotal {
-    margin-bottom: 18px; }
-  .checkout .shipping {
-    margin-bottom: 19px; }
-    .checkout .shipping span.heading {
-      margin-right: 4px; }
-  .checkout .total-price {
-    font-family: "Muli-Bold";
-    color: #333;
-    font-weight: 700; }
 
 @-webkit-keyframes hvr-icon-wobble-horizontal {
   16.65% {
