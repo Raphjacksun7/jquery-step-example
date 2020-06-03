@@ -156,6 +156,8 @@ h3 {
     width: 100% !important;
     padding: 0 18px !important;
     box-shadow: none !important;
+    margin-top: 1em;
+    margin-bottom: 1em !important;
 }
   .form-control:focus {
     border-color: #9a9a9a; }
