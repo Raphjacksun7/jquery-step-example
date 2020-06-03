@@ -29,8 +29,9 @@ textarea {
 
 input, textarea, select, button {
   font-family: "Poppins-Regular";
-  font-size: 15px;
-  color: #666; }
+  font-size: 15px !important;
+  color: #666 !important; 
+}
 
 p, h1, h2, h3, h4, h5, h6, ul {
   margin: 0; }
@@ -50,7 +51,9 @@ select {
   -moz-appearance: none;
   -webkit-appearance: none;
   cursor: pointer;
-  border: none; }
+  border: none;
+  display: block !important;
+ }
   select option[value=""][disabled] {
     display: none; }
 
@@ -118,12 +121,18 @@ h3 {
   font-family: "Poppins-SemiBold"; }
 
 .form-row {
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+  display: block !important;
+ }
   .form-row label {
     margin-bottom: 8px;
-    display: block; }
+    display: block;
+    color: inherit; 
+  }
   .form-row.form-group {
-    display: flex; }
+    display: flex !important;
+    flex-wrap: inherit;
+   }
     .form-row.form-group .form-holder {
       width: 50%;
       margin-right: 21px; }
@@ -140,11 +149,14 @@ h3 {
     color: #999; }
 
 .form-control {
-  height: 42px;
-  border: 1px solid #e6e6e6;
-  background: none;
-  width: 100%;
-  padding: 0 18px; }
+    height: 42px;
+    border: 1px solid #e6e6e6 !important;
+    background: none !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    padding: 0 18px !important;
+    box-shadow: none !important;
+}
   .form-control:focus {
     border-color: #9a9a9a; }
   .form-control::-webkit-input-placeholder {
@@ -163,6 +175,7 @@ h3 {
   .files h2{
     margin-bottom: 1em;
     font-weight: 400;
+    font-size: 20px;
   }
 
   .fileList {
@@ -235,7 +248,7 @@ textarea.form-control {
   .actions li a:before {
     content: '\f2ee';
     position: absolute;
-    top: 19px;
+    top: 16px;
     right: 41px;
     font-family: Material-Design-Iconic-Font;
     -webkit-transform: translateZ(0);
